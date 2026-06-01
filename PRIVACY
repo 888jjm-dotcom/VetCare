@@ -1,1 +1,47 @@
+Privacy Policy
+VetCare — Privacy Policy Last updated: 14 February 2026
+VetCare is a small-animal hospital record application for iPhone, iPad and Mac. This policy explains what data the app handles and where it lives. It is intentionally short because the app collects very little.
+Who runs VetCare
+VetCare is developed and published by John James Marshall, Johannesburg, South Africa. Questions about this policy can be sent to the address in the Contact section below.
+What VetCare stores
+The app stores the clinical records you enter:
+* Patient demographics (name, species, breed, date of birth, owner identifier).
+* Vitals (temperature, heart rate, respiration rate, weight, observations).
+* Medicines (prescriptions and administration entries).
+* Clinical notes and owner-facing updates.
+* Diagnostics entries (imaging, labs and other dated results).
+* Staff profiles you create on the device (display name, role, salted PIN hash).
+* App preferences (mode, warm-window length, appearance).
+This information is entered by you. The app does not import data from any external source.
+Where the data lives
+* On your device. All records are stored in a local SwiftData database on each device that runs the app. The app works offline; records remain available without a network connection.
+* In your iCloud account. If you are signed in to iCloud, records are synced through the VetCare CloudKit container that belongs to your Apple ID. The developer cannot read records held in your iCloud account.
+* In CloudKit Sharing zones. When you share a patient with an owner, the records for that patient are made available to the participant you invited, via Apple's CloudKit Sharing. Only invited participants can access a shared patient.
+VetCare does not run its own server. There is no developer-operated database, file store, analytics endpoint or telemetry pipeline.
+What VetCare does NOT collect
+* No advertising identifiers.
+* No analytics, telemetry or crash-reporting SDKs.
+* No location data.
+* No contacts, photos, calendar or microphone access beyond what you explicitly initiate (for example, attaching a file via the system share sheet).
+* No third-party SDKs that phone home.
+* No accounts. The app does not have a sign-up flow. The only identity used is the Apple ID already signed in on the device.
+PIN security
+Staff PINs are stored as salted SHA-256 hashes on the device. The plain PIN is never written to disk and never leaves the device. PIN verification is performed locally; there is no network round-trip.
+Sharing with owners
+When you invite an owner to follow a patient, Apple's CloudKit Sharing generates a link that grants the invited Apple ID access to that patient's records via the owner's own iCloud. You can revoke access at any time from the patient's Sharing section in the app; revoking removes the shared records from the owner's device on next sync.
+The developer has no role in, and no visibility of, the contents of a CloudKit share between you and your invitees.
+Backups and exports
+You can export a versioned .vcare archive of selected patients, or an HTML report of a single chart. These files are produced on your device and handed to you via the system share sheet. The developer does not receive a copy. Treat exported files with the same care as a paper chart — they are not encrypted by the app itself, only by whatever storage you place them in.
+Children
+VetCare is intended for use by qualified clinical staff and by pet owners receiving shared charts from their vet. It is not directed at children.
+Your rights
+Because VetCare does not collect data on the developer's servers, there is no developer-held copy to access, correct or delete. You retain full control through your device and your iCloud account:
+* To delete local data, delete the app from the device.
+* To delete the iCloud copy, sign out of iCloud on the device, or go to System Settings (or iPhone Settings) → Apple ID → iCloud → Manage Account Storage → VetCare → Delete Data.
+* To revoke a share with an owner, open the patient and tap Stop Sharing.
+Changes to this policy
+If this policy changes, the "Last updated" date at the top will move. Material changes will also be summarised in the app's What's New notes for the relevant release.
+Contact
+Questions or concerns about this policy: vetcare-support@[your-domain].com *(Replace with the address you want App Review and users to write to.)*
+VetCare is not a medical device and does not provide diagnostic, prescribing or treatment advice. It is a record-keeping tool for use by qualified clinical staff.
 
