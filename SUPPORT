@@ -1,1 +1,46 @@
+SUPPORT	
+Support page
+VetCare — Support Last updated: 14 February 2026
+Thanks for using VetCare. This page covers the most common questions; if you don't find what you need, send a short note to vetcare-support@[your-domain].com and we'll get back to you.
 
+Quick reference
+The in-app User Guide is the fastest source of help. 
+Open the app, tap the gear icon, then Help → User Guide. The guide adapts to whether you're using the app as a vet or as a pet owner.
+Common questions
+
+The client I invited can't see the shared patient. 
+Ask them to open the share link from Mail or Messages rather than a third-party browser. The VetCare app must be installed on their device before they tap the link, and they must be signed in to iCloud. If the dashboard says "Couldn't load shares", pull down to refresh — this is usually a transient iCloud condition.
+
+An owner says "no patients are showing". 
+Confirm on your device that the patient's record has been saved at least once (the Sharing diagnostics screen will show a SUMMARY ↑ entry for it). If not, edit the patient's name or status to force a save, then ask the owner to refresh. Diagnostics: Settings → About → Sharing diagnostics.
+
+I've forgotten my PIN. 
+If another vet is active on the practice, ask them to authorise a reset from Settings → Users & PINs → your name → Change PIN → "Forgot PIN?". If you're the only active vet, the lock-out cannot be self-served; restore from another device that's already signed in, or reinstall the app on a test device.
+
+Records aren't syncing between my devices. 
+Check Settings → Sync & Sharing for the iCloud account status. Make sure both devices have a network connection and are signed in to the same Apple ID. If sync still seems stuck, toggle aeroplane mode off and on, then relaunch the app.
+
+Can I move my data to a new device? 
+Yes. Sign in to the same Apple ID on the new device, install VetCare, and your records sync down automatically over iCloud. As a belt-and-braces option, you can also export a .vcare backup from Settings → Sync & Sharing and import it on the new device.
+
+Can I share a patient with more than one person? 
+Yes. Each invited Apple ID gets its own access; revoke or replace them individually from the patient's Sharing section.
+
+Does VetCare work offline? Yes. Records are stored locally and changes queue for upload when the network returns.
+
+Is my data sent anywhere besides my own iCloud? 
+No. There is no developer-operated server, analytics endpoint or third-party SDK. See the Privacy Policy for details.
+
+Reporting a bug
+When writing in, please include:
+* The device and OS version (for example, iPad Pro 11-inch, iPadOS 18.4).
+* The app version and build number, shown in Settings → About.
+* A short description of what you were doing and what you saw.
+* If the issue involves sharing, a copy of the Sharing diagnostics transcript (Settings → About → Sharing diagnostics → tap the share icon). The transcript contains CloudKit record names only, no patient or owner details.
+We aim to reply within two working days.
+Feature requests
+Send a short note describing the workflow you're trying to support and the device(s) you're using. Owner-facing and clinical features go through the same intake.
+Disclaimer
+VetCare is a record-keeping tool. It is not a medical device and does not provide diagnostic, prescribing or treatment advice. Clinical decisions remain with the qualified veterinary professional in charge of the case.
+Contact
+888jjm@gmail.com
